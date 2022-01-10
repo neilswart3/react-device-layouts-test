@@ -1,0 +1,39 @@
+{
+  "name": "react-device-layouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && babel src --out-dir dist --copy-files"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "mockup",
+    "layouts",
+    "mobile"
+  ],
+  "author": "neilswart3",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilswart3/react-device-layouts.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.63.0",
+    "rollup-plugin-sourcemaps": "^0.6.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.16.7"
+  }
+}
